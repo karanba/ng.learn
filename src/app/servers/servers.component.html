@@ -11,5 +11,5 @@
     No server
   </p>
 </ng-template>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let serve of servers; let i = index" [ngStyle]="{ 'background-color' : i%2===0 ? 'aqua' : 'yellow'}"></app-server>
+
