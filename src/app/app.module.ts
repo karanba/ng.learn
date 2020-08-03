@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ServerComponent } from './server/server.component';
 import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
-import { WarningAlertComponent } from './warning-alert/warning-alert.componet'
+import { WarningAlertComponent } from './warning-alert/warning-alert.componet';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
